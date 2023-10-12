@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(80, 79, 79);
+            padding: 3px;
+            }
+
+        nav > a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.466);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(168, 140, 140);
+            width: 175px;
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            padding: 2px;
+            margin: auto;
+            box-shadow: 12px 12px 25px rgba(255, 255, 255, 0.514);
+            border-radius: 10px 50px;
+        }
+        #assuntos { 
+            color: lawngreen;
+            background-color: blue;
+            padding: 3px;
+            margin-bottom: 20px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>assunto de futebol</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laudantium quia sapiente ducimus incidunt est molestiae rem quod? Nemo rem quas aperiam! Neque, nostrum nihil voluptas necessitatibus culpa unde natus?</p>
+                <aside>
+                    <p> Artigos escrito por Luva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Daniel Coutinho</p>
+    </footer>
+</body>
+</html>
