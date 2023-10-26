@@ -1,17 +1,71 @@
 @charset "UTF8";
 
-body {
-    background-image: linear-gradient(180deg, blue, lightblue, transparent);
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-h1 {
-    color: aliceblue;
+html, body {
+    background-color: lightslategray;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
 }
 
 a {
-    color: aqua;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-a#rodape {
-    color:darkblue;
+a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
 }
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.imagem > p {
+    background-color: rgb(31, 31, 31);
+    width: 400px;
+    padding-left: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
