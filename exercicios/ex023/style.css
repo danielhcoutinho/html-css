@@ -1,0 +1,51 @@
+@charset "UTF-8"
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 2px;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px 350px;
+    border-radius: 25px;
+}
+
+h1:hover {
+    color: rgb(75, 193, 209);
+    background-color: blue;
+    border-radius: 25px;
+}
+
+table {
+width: 300px;
+border-collapse: collapse;
+
+}
+
+.linha {
+    background-color: rgb(43, 85, 85);
+    color: azure;
+}
+
+.dado {
+    background-color: yellow;
+    color: rgb(121, 1, 1);
+}
+
+td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: black;
+    color: white;
+}
